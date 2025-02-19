@@ -15,7 +15,7 @@ export default function Home() {
         />
         <Link
           href="/dashboard"
-          className="text-2xl text-red-300 underline underline-offset-8"
+          className="text-3xl text-red-300 underline underline-offset-8"
         >
           Dashboard
         </Link>
