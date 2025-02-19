@@ -13,7 +13,12 @@ export default function Home() {
           height={38}
           priority
         />
-        <Link href="/dashboard">Dashboard</Link>
+        <Link
+          href="/dashboard"
+          className="text-2xl text-red-300 underline underline-offset-8"
+        >
+          Dashboard
+        </Link>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
