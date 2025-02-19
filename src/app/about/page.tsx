@@ -3,7 +3,9 @@ export default function AboutPage() {
   return (
     <div>
       <h1>About Page</h1>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <p className="text-2xl text-white bg-red-200 text-nowrap mt-12">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      </p>
     </div>
   );
 }
