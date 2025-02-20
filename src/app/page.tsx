@@ -19,6 +19,12 @@ export default function Home() {
         >
           Dashboard
         </Link>
+        <Link
+          href="/about"
+          className="text-3xl text-blue-300 underline underline-offset-8"
+        >
+          About
+        </Link>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
