@@ -2,6 +2,8 @@ export async function generateStaticParams() {
   return [{ id: "1" }, { id: "2" }, { id: "3" }];
 }
 
+// Boost app performance + handle multiple dynamic segments
+
 export default async function ProductPage({
   params,
 }: {
