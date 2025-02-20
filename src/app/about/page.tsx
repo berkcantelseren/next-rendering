@@ -13,3 +13,5 @@ export default async function AboutPage() {
 }
 
 // Cant put state in server component. Need client component for that.
+
+// This page rendered with Dynamic Rendering because of cookies (on demend)
