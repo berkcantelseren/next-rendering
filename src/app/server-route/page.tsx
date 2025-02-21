@@ -1,3 +1,6 @@
+import { serverSideFunction } from "@/utils/server-utils";
+
 export default function ServerRoutePage() {
-  return <h1>Server Route</h1>;
+  const result = serverSideFunction();
+  return <h1>Server Route {result}</h1>;
 }
