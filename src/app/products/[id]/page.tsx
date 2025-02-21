@@ -1,4 +1,4 @@
-export const dynamicParams = false;
+export const dynamicParams = true;
 
 // dynamicParams true if building e-commerce etc. for performance
 
