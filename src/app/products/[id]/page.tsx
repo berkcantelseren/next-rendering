@@ -1,5 +1,8 @@
 export const dynamicParams = false;
 
+// dynamicParams true if building e-commerce etc. for performance
+
+// dynamicParams false if building blog etc.
 export async function generateStaticParams() {
   return [{ id: "1" }, { id: "2" }, { id: "3" }];
 }
